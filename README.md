@@ -7,7 +7,7 @@ Create a virtual environment
  ```
 Install PyTorch 
  ```bash
- conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
 Install other Python libraries
 ```bash
