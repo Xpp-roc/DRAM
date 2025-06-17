@@ -11,7 +11,16 @@ Install PyTorch
 ```
 Install other Python libraries
 ```bash
- pip install scipy easydict tqdm matplotlib 
+ conda install scipy -c conda-forge
+```
+```bash
+ conda install easydict -c conda-forge
+```
+```bash
+ conda install tqdm -c conda-forge
+```
+```bash
+ conda install matplotlib -c conda-forge 
 ```
 # How to Run
 The folder contain the configuration file of each dataset and the folder provides the implementation of DRAM. You can edit the config file and enter the folder to excute the following command:
